@@ -1,0 +1,10 @@
+/* alteração no arquivo inteiro. Procedimento que reinicializa as configs padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* alteração apenas na lista desordenada */
+ul {
+    list-style: none;
+}

@@ -1,0 +1,15 @@
+Instalar as extensões:
+live server (atualiza o servidor em tempo real. É bom pra codigo em HTML)
+omni theme (deixa o vs code mais bonito)
+portuguese (traduz o vs code)
+vscode-icons (muda os icones do vs code)
+Bracket Pair Colorization Toggler
+
+google fonts (fonts.google.com) para trocar a fonte do HTML no navegador. 
+Inserir o link no head do código.
+
+link:favicon (cria o esqueleto de código para mudar o icone da aba no navegador)
+
+utilizar class para referenciar ao CSS e ID para referenciar ao JS
+
+Pegar sombra de hover (box shadow): https://getcssscan.com/css-box-shadow-examples

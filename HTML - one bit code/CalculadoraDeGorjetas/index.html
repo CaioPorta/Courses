@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Aula 1 da OneBitCode" content="Descrição dessa página">
+    <meta name="author" content="Caio Moreira Porta">
+    <title>Calculadora de gorjetas</title>
+    <!link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon"> <!link:favicon é para alterar o icone da aba>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">    
+</head>
+<body>
+    <div class="container">
+        <div class="titulo">
+            <h1>CALCULADORA DE GORJETAS</h1>        
+        </div>
+        <div class="corpo">
+            <form class="tipsForm" id="tipsForm">
+                <label for="bill">
+                    <p>Quanto ficou a conta?</p>
+                </label>
+                <p>
+                    R$ 
+                    <input type="number" placeholder="100" name="bill" id="bill" class="inputForm" required>
+                </p>
+                <label for="serviceQual">
+                    <p>Como foi o seu serviço?</p>
+                </label>
+                <p>
+                    <select name="serviceQual" id="serviceQual" class="selectForm" required>
+                        <option disable selected value="-1">-- Escolha uma opção</option>
+                        <option value="0.3">30% - Incrível</option>
+                        <option value="0.25">25% - Bom</option>
+                        <option value="0.20">20% - Aceitável</option>
+                        <option value="0.10">10% - Ruim</option>
+                        <option value="0">0% - Péssimo</option>
+                    </select>
+                </p>
+                <label for="people">
+                    <p>Quantas pessoas vão dividir a conta?</p>
+                </label>
+                <p>
+                    <input type="number" placeholder="1" name="people" id="people" class="inputForm" required> pessoa(s)
+                </p>
+                <button type="submit" class="submitForm">CALCULAR!</button>
+            </form>        
+        </div>
+        <div id="totalTip" class="totalTip">
+            Gorjeta total:
+            R$<span id="tip">0.00</span>
+            <p id="each">cada</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="src/js/scripts.js"></script>
+</body>
+</html>

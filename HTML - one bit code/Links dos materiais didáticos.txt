@@ -1,0 +1,3 @@
+sobre Tags: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+sobre formulários e tipos de inputs: https:// developer.mozilla.org/pt-BR/docs/Web/HTML/Element/form
+sobre tabelas no HTML: https://developer.mozilla.org/pt-PT/docs/Learn/HTML/Tables/Basicos
